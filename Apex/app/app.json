@@ -42,18 +42,6 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-font",
-      "expo-secure-store",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#0A0A0F",
-          "image": "./assets/splash-icon.png",
-          "imageWidth": 200
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "apex-athletic-training"
