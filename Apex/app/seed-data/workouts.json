@@ -1,0 +1,148 @@
+[
+    {
+        "id": "speed_w1_a",
+        "title": "Acceleration Emphasis",
+        "goal": "Speed Foundations Week 1",
+        "durationEstimateMinutes": 35,
+        "exercises": [
+            {
+                "exerciseId": "a_skip_001",
+                "sets": 3,
+                "distance": "20m",
+                "restSeconds": 60,
+                "targetType": "distance"
+            },
+            {
+                "exerciseId": "wall_start_001",
+                "sets": 4,
+                "distance": "10m",
+                "restSeconds": 90,
+                "targetType": "distance"
+            },
+            {
+                "exerciseId": "bounds_001",
+                "sets": 3,
+                "reps": 6,
+                "restSeconds": 120,
+                "targetType": "reps"
+            }
+        ],
+        "intensityScore": 6,
+        "sessionType": "speed",
+        "totalContacts": 38
+    },
+    {
+        "id": "speed_w1_b",
+        "title": "Technique Focus",
+        "goal": "Speed Foundations Week 1",
+        "durationEstimateMinutes": 30,
+        "exercises": [
+            {
+                "exerciseId": "a_skip_001",
+                "sets": 3,
+                "distance": "20m",
+                "restSeconds": 45,
+                "targetType": "distance"
+            }
+        ],
+        "intensityScore": 4,
+        "sessionType": "technique",
+        "totalContacts": 20
+    },
+    {
+        "id": "vjb_w1_a",
+        "title": "Activation & Patterns",
+        "goal": "Vertical Jump Builder Week 1",
+        "durationEstimateMinutes": 35,
+        "exercises": [
+            {
+                "exerciseId": "glute_bridge_001",
+                "sets": 3,
+                "reps": 12,
+                "restSeconds": 45,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "split_squat_001",
+                "sets": 3,
+                "reps": 10,
+                "restSeconds": 60,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "rdl_001",
+                "sets": 3,
+                "reps": 8,
+                "restSeconds": 60,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "pogos_001",
+                "sets": 2,
+                "reps": 15,
+                "restSeconds": 45,
+                "targetType": "reps"
+            }
+        ],
+        "intensityScore": 5,
+        "sessionType": "strength",
+        "totalContacts": 30
+    },
+    {
+        "id": "vjb_w4_a",
+        "title": "Reactive Power",
+        "goal": "Vertical Jump Builder Week 4",
+        "durationEstimateMinutes": 40,
+        "exercises": [
+            {
+                "exerciseId": "pogos_001",
+                "sets": 2,
+                "reps": 25,
+                "restSeconds": 45,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "bulgarian_split_001",
+                "sets": 3,
+                "reps": 6,
+                "restSeconds": 90,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "box_jump_001",
+                "sets": 3,
+                "reps": 5,
+                "restSeconds": 120,
+                "targetType": "reps"
+            }
+        ],
+        "intensityScore": 7,
+        "sessionType": "power",
+        "totalContacts": 65
+    },
+    {
+        "id": "explosive_w1_a",
+        "title": "Lower Body Power",
+        "goal": "Explosive Athlete Week 1",
+        "durationEstimateMinutes": 35,
+        "exercises": [
+            {
+                "exerciseId": "squat_jump_001",
+                "sets": 4,
+                "reps": 5,
+                "restSeconds": 90,
+                "targetType": "reps"
+            },
+            {
+                "exerciseId": "broad_jump_001",
+                "sets": 4,
+                "reps": 4,
+                "restSeconds": 120,
+                "targetType": "reps"
+            }
+        ],
+        "intensityScore": 7,
+        "sessionType": "power",
+        "totalContacts": 36
+    }
+]
