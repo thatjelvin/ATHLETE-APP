@@ -1,0 +1,203 @@
+[
+    {
+        "id": "speed_foundations",
+        "title": "Speed Foundations",
+        "description": "Master the mechanics of acceleration and build your sprint foundation.",
+        "weeks": 6,
+        "sessionsPerWeek": 3,
+        "level": "beginner",
+        "equipmentRequired": "bodyweight",
+        "primaryGoal": "speed",
+        "weekStructure": [
+            {
+                "weekNumber": 1,
+                "theme": "Base Mechanics",
+                "sessions": [
+                    "speed_w1_a",
+                    "speed_w1_b",
+                    "speed_w1_c"
+                ]
+            },
+            {
+                "weekNumber": 2,
+                "theme": "Arm Drive & Posture",
+                "sessions": [
+                    "speed_w2_a",
+                    "speed_w2_b",
+                    "speed_w2_c"
+                ]
+            },
+            {
+                "weekNumber": 3,
+                "theme": "Ground Contact",
+                "sessions": [
+                    "speed_w3_a",
+                    "speed_w3_b",
+                    "speed_w3_c"
+                ]
+            },
+            {
+                "weekNumber": 4,
+                "theme": "Acceleration Builds",
+                "sessions": [
+                    "speed_w4_a",
+                    "speed_w4_b",
+                    "speed_w4_c"
+                ]
+            },
+            {
+                "weekNumber": 5,
+                "theme": "Speed Endurance",
+                "sessions": [
+                    "speed_w5_a",
+                    "speed_w5_b",
+                    "speed_w5_c"
+                ]
+            },
+            {
+                "weekNumber": 6,
+                "theme": "Testing & Consolidation",
+                "sessions": [
+                    "speed_w6_a",
+                    "speed_w6_b",
+                    "speed_w6_c"
+                ]
+            }
+        ],
+        "progressionRulesRef": "speed_beginner"
+    },
+    {
+        "id": "vertical_jump_builder",
+        "title": "Vertical Jump Builder",
+        "description": "Increase your vertical jump through power, strength, and reactive training.",
+        "weeks": 8,
+        "sessionsPerWeek": 3,
+        "level": "intermediate",
+        "equipmentRequired": "minimal",
+        "primaryGoal": "vertical_jump",
+        "weekStructure": [
+            {
+                "weekNumber": 1,
+                "theme": "Foundation",
+                "sessions": [
+                    "vjb_w1_a",
+                    "vjb_w1_b",
+                    "vjb_w1_c"
+                ]
+            },
+            {
+                "weekNumber": 2,
+                "theme": "Strength Base",
+                "sessions": [
+                    "vjb_w2_a",
+                    "vjb_w2_b",
+                    "vjb_w2_c"
+                ]
+            },
+            {
+                "weekNumber": 3,
+                "theme": "Power Introduction",
+                "sessions": [
+                    "vjb_w3_a",
+                    "vjb_w3_b",
+                    "vjb_w3_c"
+                ]
+            },
+            {
+                "weekNumber": 4,
+                "theme": "Reactive Development",
+                "sessions": [
+                    "vjb_w4_a",
+                    "vjb_w4_b",
+                    "vjb_w4_c"
+                ]
+            },
+            {
+                "weekNumber": 5,
+                "theme": "Strength-Power",
+                "sessions": [
+                    "vjb_w5_a",
+                    "vjb_w5_b",
+                    "vjb_w5_c"
+                ]
+            },
+            {
+                "weekNumber": 6,
+                "theme": "Peak Power",
+                "sessions": [
+                    "vjb_w6_a",
+                    "vjb_w6_b",
+                    "vjb_w6_c"
+                ]
+            },
+            {
+                "weekNumber": 7,
+                "theme": "Speed-Strength",
+                "sessions": [
+                    "vjb_w7_a",
+                    "vjb_w7_b",
+                    "vjb_w7_c"
+                ]
+            },
+            {
+                "weekNumber": 8,
+                "theme": "Testing & Taper",
+                "sessions": [
+                    "vjb_w8_a",
+                    "vjb_w8_b",
+                    "vjb_w8_c"
+                ]
+            }
+        ],
+        "progressionRulesRef": "vjb_intermediate"
+    },
+    {
+        "id": "explosive_athlete",
+        "title": "Explosive Athlete",
+        "description": "Total body explosive power for multi-sport transfer.",
+        "weeks": 4,
+        "sessionsPerWeek": 3,
+        "level": "intermediate",
+        "equipmentRequired": "minimal",
+        "primaryGoal": "explosiveness",
+        "weekStructure": [
+            {
+                "weekNumber": 1,
+                "theme": "Power Foundation",
+                "sessions": [
+                    "explosive_w1_a",
+                    "explosive_w1_b",
+                    "explosive_w1_c"
+                ]
+            },
+            {
+                "weekNumber": 2,
+                "theme": "Explosive Development",
+                "sessions": [
+                    "explosive_w2_a",
+                    "explosive_w2_b",
+                    "explosive_w2_c"
+                ]
+            },
+            {
+                "weekNumber": 3,
+                "theme": "Peak Power",
+                "sessions": [
+                    "explosive_w3_a",
+                    "explosive_w3_b",
+                    "explosive_w3_c"
+                ]
+            },
+            {
+                "weekNumber": 4,
+                "theme": "Integration & Test",
+                "sessions": [
+                    "explosive_w4_a",
+                    "explosive_w4_b",
+                    "explosive_w4_c"
+                ]
+            }
+        ],
+        "progressionRulesRef": "explosive_intermediate"
+    }
+]

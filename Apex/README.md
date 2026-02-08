@@ -1,52 +1,36 @@
 # Apex Athletic Training App
 
-Production-ready specifications for a cross-platform mobile app focused on athletic performance training.
+A production-ready cross-platform mobile app focused on athletic performance training.
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 18+
 - npm or yarn
-- Expo CLI (`npm install -g expo-cli`)
-- PostgreSQL 14+
+- Expo Go app on your phone (for testing)
 
-### Local Development
+### Run the App
 
 ```bash
-# Clone and install
+# Navigate to the app directory
 cd app
+
+# Install dependencies
 npm install
 
-# Start Expo dev server
-npm run dev
+# Start development server
+npm start
 
-# Run on iOS/Android
-npm run ios
-npm run android
+# Scan QR code with Expo Go app on your phone
 ```
 
-### Backend Setup
+### Full Review Guide
 
-```bash
-cd server
-npm install
-
-# Setup database
-createdb apex_dev
-npm run migrate
-npm run seed
-
-# Start server
-npm run dev
-```
-
-### Seed Sample Programs
-
-```bash
-cd server
-npm run seed:programs
-# Imports exercises.json, workouts.json, programs.json from seed-data/
-```
+See [app/REVIEW_GUIDE.md](app/REVIEW_GUIDE.md) for complete instructions on:
+- Running the app on your device
+- Testing all features
+- Building for Play Store
+- Deployment checklist
 
 ---
 

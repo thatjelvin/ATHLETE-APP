@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Apex Athletic",
+    "slug": "apex-athletic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "scheme": "apex-athletic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apexathletic.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Apex Athletic to use the camera to record training videos for technique analysis.",
+        "NSPhotoLibraryUsageDescription": "Allow Apex Athletic to access your photos to save training progress.",
+        "NSMotionUsageDescription": "Allow Apex Athletic to track your movement during workouts."
+      }
+    },
+    "android": {
+      "package": "com.apexathletic.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "apex-athletic-training"
+      }
+    },
+    "owner": "apexathletic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/apex-athletic-training"
+    }
+  }
+}
