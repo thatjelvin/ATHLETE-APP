@@ -21,7 +21,7 @@ interface UserState {
 }
 
 const generateUserId = (): string => {
-  return 'user_' + Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
+  return 'user_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 11);
 };
 
 export const useUserStore = create<UserState>((set, get) => ({
