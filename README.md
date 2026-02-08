@@ -4,9 +4,20 @@ A comprehensive athletic performance training platform designed to help athletes
 
 ## 🏃‍♂️ Overview
 
-This repository contains production-ready specifications and documentation for **Apex Athletic Training App** - a cross-platform mobile application focused on athletic performance training. The app provides structured training programs with progressive overload, workout tracking, and performance analytics.
+This repository contains production-ready **specifications and documentation** for **Apex Athletic Training App** - a cross-platform mobile application focused on athletic performance training. The documentation includes complete technical architecture, data models, UI flows, and three fully-detailed training programs ready for implementation.
 
-## ✨ Features
+### What's Inside
+
+- ✅ Complete technical specifications and architecture
+- ✅ Detailed UI/UX screen flows and wireframes
+- ✅ Three complete training programs with week-by-week breakdowns
+- ✅ Data models and JSON schemas
+- ✅ Sample seed data for exercises, workouts, and programs
+- ⏳ Implementation coming soon (app and server code)
+
+## ✨ Planned Features
+
+The application will include:
 
 - **3 Structured Programs**:
   - **Speed Foundations** (6 weeks) - Master acceleration mechanics and sprint fundamentals
@@ -51,37 +62,37 @@ ATHLETE-APP/
 │   └── README.md                  # Detailed development guide
 ```
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-### Prerequisites
+This repository currently contains **specifications and documentation** for the Apex Athletic Training App. The implementation is planned to follow the architecture and designs outlined in the documentation.
+
+### Repository Contents
+
+```bash
+# Clone the repository
+git clone https://github.com/thatjelvin/ATHLETE-APP.git
+cd ATHLETE-APP
+
+# Explore the documentation
+cd Apex/docs
+
+# Review training programs
+cd Apex/programs
+
+# Check seed data examples
+cd Apex/seed-data
+```
+
+### Implementation Prerequisites (When Ready)
+
+When implementing the application based on these specifications:
 
 - Node.js 18+
 - npm or yarn
 - Expo CLI (`npm install -g expo-cli`)
 - PostgreSQL 14+
 
-### Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/thatjelvin/ATHLETE-APP.git
-cd ATHLETE-APP/Apex
-
-# Frontend Setup
-cd app
-npm install
-npm run dev
-
-# Backend Setup (in another terminal)
-cd server
-npm install
-createdb apex_dev
-npm run migrate
-npm run seed
-npm run dev
-```
-
-For detailed setup instructions, see the [Apex README](./Apex/README.md).
+For detailed implementation guidance, see the [Apex README](./Apex/README.md).
 
 ## 🏋️ Training Programs
 
@@ -106,7 +117,9 @@ For detailed setup instructions, see the [Apex README](./Apex/README.md).
 - **Focus**: Total-body explosiveness, athletic power
 - [View Full Program →](./Apex/programs/explosive-athlete.md)
 
-## 🛠️ Tech Stack
+## 🛠️ Planned Tech Stack
+
+The application will be built using:
 
 - **Frontend**: React Native + Expo
 - **State Management**: Zustand + React Query
